@@ -52,7 +52,7 @@ public class ListaCumparaturi {
         }
         return lista;
     }
-    // Salveaza intr-un text Cumparaturile
+    // Salveaza intr-un document de tip text Cumparaturile
     public void exportListaCumparaturi(){
         try {
             PrintWriter printWriter = new PrintWriter("Files\\Cumparaturi.txt");
